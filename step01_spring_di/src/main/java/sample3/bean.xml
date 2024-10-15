@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="messageBean1" class="sample3.MessageBeanKr"/>
+<bean id="messageBean2" class="sample3.MessageBeanEn"/>
+
+</beans>
+<!-- 
+<bean id="messageBean1"  class="sample3.MessageBeanKr"/>
+<bean id="messageBean2"  class="sample3.MessageBeanEn"/>
+	MessageBeanKr messageBean1 = new MessageBeanKr();    동일
+	MessageBeanEn messageBean2 = new MessageBeanEn();
+ -->

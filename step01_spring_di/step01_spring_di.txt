@@ -1,0 +1,94 @@
+step01_spring_di  -- Maven Project  -> Next -> 
+                   maven-archetype-quikstart 1.1(선택) -> Next
+                   Group Id: com.ssafy
+                   Artifact Id: step01_spring_di 
+                   -> Next ->Finish
+
+src
+  sample1
+  	 HelloSpring.java
+     MessageBean.java 
+  sample2
+     HelloSpring.java
+     MessageBean.java   --interface
+     MessageBeanEn.java
+     MessageBeanKr.java 
+  sample3
+     HelloSpring.java        
+     MessageBean.java 
+     MessageBeanEn.java
+     MessageBeanKr.java
+     bean.xml --> new-> other-> xml
+                 (https://docs.spring.io/spring-framework/reference/core/beans/basics.html)
+                 (pom.xml: 필요한 라이브러리를 추가, https://mvnrepository.com)
+  sample4
+     HelloSpring.java
+     MessageBean.java   --interface
+     MessageBeanImpl.java
+     bean1.xml   ---> new -> other-> xml
+     bean2.xml    
+  sample5
+     Bar.java
+     Foo.java    
+     FooTestApp.java   --main
+     InterFoo.java     --interface
+     bean1.xml         
+     bean2.xml         
+     
+  sample6	    
+    bean1.xml           --xml
+     	  bean이름 : developer
+          bean이름 : engineer
+    bean2.xml           --xml에 c, p 추가  
+          bean이름 : developer
+          bean이름 : engineer
+    Emp.java                
+           -name:String    
+           -salary:int
+           +Emp(),    +Emp(name:String, salary:int)
+           +toString():String      -- 이름과 급여를 리턴
+    Engineer.java     <--- Emp상속(is-a 관계)
+           -dept:String
+           +Engineer(), +Engineer(name:String, salary:int)
+           +setDept(dept:String):void 
+           +toString():String    -- 이름과 급여(부모 toString())과 부서를 리턴 
+    Developer.java    <--- Emp상속  
+            -dept:String
+            +Developer(), +Developer(name:String, salary:int)
+            +setDept(dept:String):void
+            +toString():String 
+    EmpMain.java
+    
+    [출력]
+    이름 :강호동     급여 : 1500000원    부서 : 개발1팀(개발부)     
+    이름 :이순신     급여 : 2500000원    부서 : 기술1팀(기술부)        
+      
+  sample7  -- sample6을 복사해서 수정
+         bean1.xml          --xml
+         bean2.xml          --xml에 c, p 추가    
+         Emp.java                
+               -name:String    
+               -salary:int
+               +Emp(),    +Emp(name:String, salary:int)
+               +toString():String      -- 이름과 급여를 리턴
+         Engineer.java  (has-a 관계)
+               -emp:Emp     
+               -dept:String
+               +Engineer(), +Engineer(emp:Emp, dept:String)
+               +toString():String    -- 이름과 급여, 부서를 리턴 
+         Developer.java    
+                -emp:Emp  
+                -dept:String
+                +Developer(), +Developer(emp:Emp, dept:String)
+                +toString():String   -- 이름과 급여, 부서를 리턴 
+         EmpMain.java
+         
+    [출력]
+    이름 :강호동     급여 : 1500000원    부서 : 개발1팀(개발부)     
+    이름 :이순신     급여 : 2500000원    부서 : 기술1팀(기술부)     
+
+
+
+
+
+

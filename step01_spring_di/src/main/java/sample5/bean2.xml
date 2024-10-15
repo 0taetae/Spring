@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="f1" class="sample5.Foo" c:str="테스트"/>
+<bean id="f2" class="sample5.Foo" c:str="Korea" c:num="100"/>
+<bean id="f3" class="sample5.Foo" c:a="hello" c:b="50" c:d="false"/>
+<bean id="f4" class="sample5.Foo" c:a="spring" c:b="10" c:d="true"/>
+<bean id="f5" class="sample5.Foo" c:bar-ref="bar"/>
+<bean id="bar" class="sample5.Bar"/>
+
+</beans>
