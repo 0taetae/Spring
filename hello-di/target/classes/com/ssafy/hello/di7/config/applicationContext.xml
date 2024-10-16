@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="ctx" class="com.ssafy.hello.di7.controller.HelloController">
+		<!--<constructor-arg>
+			<value>김싸피</value>
+		</constructor-arg>-->
+		<!--<constructor-arg value="30" type="int"></constructor-arg>
+		<constructor-arg value="박싸피"></constructor-arg>-->
+		<constructor-arg>
+			<ref bean="svc" />
+		</constructor-arg>
+	</bean>
+	
+	<!--<bean id="svc" class="com.ssafy.hello.di7.service.HelloServiceImpl">
+		<constructor-arg ref="dao" />
+	</bean>-->
+	
+	<bean id="svc" class="com.ssafy.hello.di7.service.HelloServiceImpl">
+		<property name="helloDao" ref="dao"></property>
+	</bean>
+	
+	<bean id="dao" class="com.ssafy.hello.di7.dao.HelloDaoImpl"></bean>
+	
+</beans>

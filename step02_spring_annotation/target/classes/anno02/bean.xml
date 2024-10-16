@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:p="http://www.springframework.org/schema/p"
-	xmlns:context="http://www.springframework.org/schema/context"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
 <context:component-scan base-package="anno02"/>
-<!-- <bean id="myFood" class="anno02.MyFoodMgr"  
-      p:favoriteFood-ref="favoritFood" p:unfavoriteFood-ref="unfavoritFood"/> -->
-<bean id="favoriteFood" class="anno02.Food" p:foodName="스파게티" p:foodPrice="7500"/>
-<bean id="unfavoriteFood" class="anno02.Food" p:foodName="된장찌게" p:foodPrice="8000"/>
+<!-- <bean id="myFood" class="anno02.MyFoodMgr">
+	<property name="favoriteFood" ref ="favoriteFood"/>
+	<property name="unfavoriteFood" ref="unfavoriteFood"/>
+</bean> -->
+<bean id="favoriteFood" class="anno02.Food">
+	<property name="foodName" value="스파게티"/>
+	<property name="foodPrice" value="7500"/>
+</bean>
+
+<bean id="unfavoriteFood" class="anno02.Food">
+	<property name="foodName" value="보신탕"/>
+	<property name="foodPrice" value="7500"/>
+</bean>
 
 </beans>
+
+
 <!--
 <context:component-scan base-package="anno02"/>
 : 특정 패키지 안의 클래스들을 스캔하고 빈 인스턴스를 생성한다. 
@@ -37,3 +48,7 @@ base-package는 어느 범위에있는 객체를 생성해 줄것인지를 선�
 
 <context:component-scan> 를 선언했다면 <context:annotation-config>를 선언할필요가 없다
 -->
+
+</beans>
+
+

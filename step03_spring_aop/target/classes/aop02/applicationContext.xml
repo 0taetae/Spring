@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="customer" class="aop02.CustomerService"></bean>
+<bean id="emp" class="aop02.EmpService"></bean>
+
+<!-- Advice: 횡단(공통)관심사항 -->
+<bean id="myAdvice" class="aop02.MyAspect"/>
+<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"  />
+
+<!-- Advisor = Advice(횡단(공통)관심사항) + pointCut(핵심관심사항) -->
+<bean class="org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor">
+	<property name="advice" ref="myAdvice"/>
+	<property name="expression" value="execution(public * *(..))"/>
+</bean>
+
+</beans>
+
+
+
+
+<!-- AOP : aspectj검색후 pom.xml에 aspectjrt, aspectweaver추가 
+
+[스프링에서 AOP 적용을 위한 4가지 요소]
+1. DefaultAdvisorProxyCreator (자동 프록시 생성기)
+ - Bean으로 등록된 Advisor를 이용해서 Target에 대한 프록시를 자동으로 생성해 주는 기능
+
+2. Advisor
+ - 프록시 생성을 위한 Advice와 Pointcut를 Property로 가진다.
+ - 보통 DefaultPointcutAdvisor를 사용해서 생성
+
+3. Pointcut
+ - Advice가 적용될 클래스와 메소드를 지정한다. 
+ - 보통 AspectJExpressionPointcut 과 표현식을 이용해서 정의한다.
+
+4. Advice
+ - 데코레이션 작업을 구현하는 클래스 
+ - MethodInterceptor 인터페이스를 구현한다. 
+-->

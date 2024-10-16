@@ -10,10 +10,17 @@ public class FooTestApp {
 //		System.out.println("** Container 초기화 작업 **");
 		
 		
-		ApplicationContext factory = new ClassPathXmlApplicationContext("sample5/bean2.xml");
+		ApplicationContext factory = new ClassPathXmlApplicationContext("sample5/bean1.xml");
 		System.out.println("** Container 초기화 작업 **");
 		
+		InterFoo ob1 = (InterFoo) factory.getBean("f0");
+		System.out.println(ob1);
 		
+		InterFoo ob2 = (InterFoo) factory.getBean("f0");
+		System.out.println(ob2);
+		
+		InterFoo ob3 = (InterFoo) factory.getBean("f0");
+		System.out.println(ob3);
 
 	}
 
