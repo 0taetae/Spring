@@ -8,9 +8,7 @@
 			<value>melon</value>
 		</constructor-arg>
 		<property name="cost">
-			<value>1000</value>
+		<value>10000</value>
 		</property>
 	</bean>
-
-
 </beans>

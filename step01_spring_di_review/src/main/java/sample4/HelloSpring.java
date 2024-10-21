@@ -6,10 +6,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class HelloSpring {
 	public static void main(String[] args) {
 		ApplicationContext factory = new ClassPathXmlApplicationContext("sample4/bean.xml");
-		
 		MessageBean bean = (MessageBean) factory.getBean("messageBean");
-		
 		bean.sayHello();
-		bean.sayHello("banana", 1500);
+		bean.sayHello("나는", 10);
 	}
 }
