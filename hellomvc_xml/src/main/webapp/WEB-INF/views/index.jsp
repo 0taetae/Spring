@@ -12,5 +12,6 @@ prefix="c" uri="jakarta.tags.core" %>
     <h1>안녕 ${name}</h1>
     <h3>파라미터 테스트</h3>
     <a href="${root}/parameter">파라미터</a>
+    <a href="${root }/model">model test</a>
   </body>
 </html>

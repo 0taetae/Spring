@@ -16,6 +16,8 @@
 		<org.springframework-version>6.1.13</org.springframework-version>
 		<org.aspectj-version>1.9.22.1</org.aspectj-version>
 		
+		<com.mysql-version>8.3.0</com.mysql-version>
+		
 		<jakarta.servlet-version>6.1.0</jakarta.servlet-version>
 		<jakarta.servlet.jsp-version>4.0.0</jakarta.servlet.jsp-version>
 		<jakarta.servlet.jsp.jstl-version>3.0.2</jakarta.servlet.jsp.jstl-version>
@@ -38,6 +40,18 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>${com.mysql-version}</version>
 		</dependency>
 
 		<!-- Servlet & JSP -->
