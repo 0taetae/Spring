@@ -1,0 +1,48 @@
+ step06_spring_book_interceptor   -- step05_spring_book 프로젝트를 복사
+                                      Group Id: com.ssafy
+                                      Artifact Id:  mvc
+                                    
+                                                
+     src/main/java
+         com.ssafy.mvc.controller
+              BookController.java  
+              HomeController.java
+              AuthController.java ----추가
+         com.ssafy.mvc.dto
+              Book.java
+              Member.java
+         com.ssafy.mvc.model.dao
+              BookDao.java       --interface
+              BookDaoImpl.java
+              MemberDao.java     --interface
+              MemberDaoImpl.java
+         com.ssafy.springmvc.model.service
+              BookService.java       --interface
+              BookServiceImpl.java
+              MemberService.java     --interface
+              MemberServiceImpl.java
+     
+     webapp
+         META-INF
+         resources
+             workshop.sql
+         WEB-INF/spring
+            appServlet
+               servlet-context.xml   --수정(인터셉터 추가)
+            root-context.xml   
+         WEB-INF/views
+            book  --폴더
+               detail.jsp 
+               list.jsp
+               regist.jsp
+            index.jsp
+            login.jsp      ---추가
+            error401.jsp   ---추가
+         WEB-INF/web.xml
+         
+         
+         
+         
+         
+         
+         

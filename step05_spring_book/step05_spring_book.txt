@@ -1,0 +1,40 @@
+ step05_spring_book   -- Maven Project  -> create a simple project(skip ~~) -> Next
+                                   Group Id: com.ssafy
+                                   Artifact Id:  mvc
+                                   Packging: war ->Finish  
+                                                
+     src/main/java
+         com.ssafy.mvc.controller
+              BookController.java  
+              HomeController.java
+         com.ssafy.mvc.dto
+              Book.java
+              Member.java
+         com.ssafy.mvc.interceptor
+              SessionConfirmInterceptor.java    
+         com.ssafy.mvc.model.dao
+              BookDao.java       --interface
+              BookDaoImpl.java
+              MemberDao.java     --interface
+              MemberDaoImpl.java
+         com.ssafy.springmvc.model.service
+              BookService.java       --interface
+              BookServiceImpl.java
+              MemberService.java     --interface
+              MemberServiceImpl.java
+     
+     webapp
+         META-INF
+         resources
+             workshop.sql
+         WEB-INF/spring
+            appServlet
+               servlet-context.xml
+            root-context.xml   
+         WEB-INF/views
+            book  --폴더
+               detail.jsp 
+               list.jsp
+               regist.jsp
+            index.jsp
+         WEB-INF/web.xml

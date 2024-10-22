@@ -49,6 +49,5 @@ base-package는 어느 범위에있는 객체를 생성해 줄것인지를 선�
 <context:component-scan> 를 선언했다면 <context:annotation-config>를 선언할필요가 없다
 -->
 
-</beans>
 
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="myFood" class="anno01.MyFoodMgr" autowire="byName" />
+	<bean id="favoriteFood" class="anno01.Food">
+		<property name="foodName" value="스파게티" />
+		<property name="foodPrice" value="1515" />
+	</bean>
+	<bean id="unfavoriteFood" class="anno01.Food">
+		<property name="foodName" value="불닭"/>
+		<property name="foodPrice" value="1000"></property>
+	</bean>
+</beans>

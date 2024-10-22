@@ -9,11 +9,22 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
+import com.ssafy.member.controller.MemberController;
+
 @ControllerAdvice
+// Controller에서만 하고 싶을 때
+//@ControllerAdvice(basePackages = {"com.ssafy.board, com.ssafy.member"})
+//@ControllerAdvice(assignableTypes = {BoardController.class, MemberController.class})
+// @RestControllerAdvice -> jsp가 아닌 JSON으로 받아낼 수 있음
 public class ExceptionControllerAdvice {
 
 	private final Logger logger = LoggerFactory.getLogger(ExceptionControllerAdvice.class);
-
+	
+	public ExceptionControllerAdvice() {
+		logger.debug("ExceptionControllerAdvice 생성자 호출");
+	}
+	
+	// 모든 Controller에서 Exception이 발생했을때 사용할 수 있음
 	@ExceptionHandler(Exception.class)
 	public String handleException(Exception ex, Model model) {
 		logger.error("Exception 발생 : {}", ex.getMessage());
