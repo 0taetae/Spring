@@ -60,7 +60,7 @@ public class MainController {
 	@GetMapping("/searchNo")
 	public String searchNo(@RequestParam("eno") int eno, Model model) {
 		//System.out.println(eno);
-		Emp emp=empService.searchNo(eno);
+		Emp emp=empService.searchNo(eno);  // 한건만 받아오기 
 		model.addAttribute("emp",emp);
 		return "searchNo";
 	}
