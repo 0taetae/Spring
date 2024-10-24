@@ -10,20 +10,24 @@ import com.ssafy.board.model.BoardDto;
 import com.ssafy.configuration.SqlMapConfig;
 
 public class BoardDaoImpl implements BoardDao {
+	
+	private final String NAME_SPACE = "com.ssafy.board.model.dao.BoardDao.";
 
 	@Override
 	public int writeArticle(BoardDto boardDto) throws SQLException {
-		try(SqlSession sqlSession = SqlMapConfig.getSqlSession()){
-			int cnt = sqlSession.insert("", boardDto);
+		try(SqlSession sqlSession = SqlMapConfig.getSqlSession()) {
+			int cnt = sqlSession.insert(NAME_SPACE+"writeArticle", boardDto);
 			sqlSession.commit();
 			return cnt;
 		}
-		
 	}
 
 	@Override
-	public List<BoardDto> listArticle(Map<String, String> map) throws SQLException {
-		return null;
+	public List<BoardDto> listArticle(Map<String, Object> map) throws SQLException {
+		try(SqlSession sqlSession = SqlMapConfig.getSqlSession()){
+			return sqlSession.selectList(NAME_SPACE+"listArticle",map);
+		}
+		
 	}
 
 	@Override

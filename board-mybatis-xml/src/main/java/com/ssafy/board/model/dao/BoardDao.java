@@ -9,7 +9,7 @@ import com.ssafy.board.model.BoardDto;
 public interface BoardDao {
 
 	int writeArticle(BoardDto boardDto) throws SQLException;
-	List<BoardDto> listArticle(Map<String, String> map) throws SQLException;
+	List<BoardDto> listArticle(Map<String, Object> map) throws SQLException;
 	int totalArticleCount(Map<String, String> map) throws SQLException;
 	BoardDto getArticle(int articleNo) throws SQLException;
 	void updateHit(int articleNo) throws SQLException;

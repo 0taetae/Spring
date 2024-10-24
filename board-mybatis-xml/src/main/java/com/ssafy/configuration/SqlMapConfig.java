@@ -9,20 +9,20 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class SqlMapConfig {
+
 	private static SqlSessionFactory sqlSessionFactory;
 	
 	static {
 		try {
 			String resource = "com/ssafy/config/mybatis-config.xml";
 			InputStream inputStream = Resources.getResourceAsStream(resource);
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-		}
-		catch(IOException e) {
+			sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
+	
 	public static SqlSession getSqlSession() {
 		return sqlSessionFactory.openSession();
 	}
-	
 }

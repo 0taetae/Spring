@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
 import com.ssafy.board.controller.BoardController;
 import com.ssafy.board.model.BoardDto;
 
@@ -16,10 +15,7 @@ public class BoardMain {
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		
-//		TODO : xml, annotation, java-config를 활용한 context 생성.
-		
-//		TODO : context에서 BoardController 얻기.
-		BoardController boardController = null;
+		BoardController boardController = new BoardController();
 		BoardDto boardDto = new BoardDto();
 		boardDto.setUserId("ssafy");
 		System.out.print("제목 : ");

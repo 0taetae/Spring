@@ -11,13 +11,11 @@ import com.ssafy.util.SizeConstant;
 public class BoardController {
 	
 	private BoardService boardService;
-	
+
 	public BoardController() {
 		super();
 		this.boardService = new BoardServiceImpl();
 	}
-
-//	TODO : BoardService Inject
 
 	public int writeArticle(BoardDto boardDto) throws Exception {
 		return boardService.writeArticle(boardDto);

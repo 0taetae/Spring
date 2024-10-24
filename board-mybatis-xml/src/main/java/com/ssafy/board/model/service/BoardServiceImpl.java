@@ -1,5 +1,6 @@
 package com.ssafy.board.model.service;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -11,13 +12,11 @@ import com.ssafy.util.SizeConstant;
 public class BoardServiceImpl implements BoardService {
 	
 	private BoardDao boardDao;
-	
+
 	public BoardServiceImpl() {
 		super();
 		this.boardDao = new BoardDaoImpl();
 	}
-
-//	TODO : BoardDao Inject
 
 	@Override
 	public int writeArticle(BoardDto boardDto) throws Exception {
@@ -29,9 +28,13 @@ public class BoardServiceImpl implements BoardService {
 		int pgNo = Integer.parseInt(map.get("pgno"));
 		int end = pgNo * SizeConstant.LIST_SIZE;
 		int start = end - SizeConstant.LIST_SIZE;
-		map.put("start", start + "");
-		map.put("end", end + "");
-		return boardDao.listArticle(map);
+		
+		Map<String, Object> param = new HashMap<>();
+		param.put("key", map.get("key"));
+		param.put("word", map.get("word"));
+		param.put("start", start);
+		param.put("end", end);
+		return boardDao.listArticle(param);
 	}
 
 	@Override
