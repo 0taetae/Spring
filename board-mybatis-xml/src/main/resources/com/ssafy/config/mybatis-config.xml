@@ -6,6 +6,10 @@
 <configuration>
 
 	<properties resource="com/ssafy/config/dbinfo.properties"></properties>
+	
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/> <!-- snake case에서 camel case로 자동 변환-->
+	</settings>
 
 	<typeAliases>
 		<typeAlias type="com.ssafy.board.model.BoardDto" alias="boardDto"/>
