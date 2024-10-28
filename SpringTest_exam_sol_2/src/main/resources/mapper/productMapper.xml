@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+	<mapper namespace="com.ssafy.exam.mapper.ProductMapper">
+
+	<resultMap id="ProductResultMap" type="ProductDto">
+		<result column="code" property="code" />
+		<result column="model" property="model" />
+		<result column="price" property="price" />
+		<result column="id" property="id" />
+		<result column="regist_date" property="registDate" />
+		<result column="detail" property="detail" />
+	</resultMap>
+
+	<!-- 전체 상품 목록 조회 -->
+	<select id="getAllResources" resultMap="ProductResultMap">
+-- 		SELECT code AS code, model AS model, price AS price, id AS id,
+-- 		       regist_date AS regist_date, detail AS detail
+-- 		FROM product
+		select * from product
+	</select>
+
+	<!-- 사용자별 상품 목록 조회 -->
+	<select id="getUserResources" parameterType="string" resultMap="ProductResultMap">
+		select * from product where id=#{userId}
+	</select>
+	
+	<!-- 상품 등록 -->
+	<insert id="makeProduct">
+		INSERT INTO product (code, model, price, id, regist_date, detail)
+		VALUES (#{code}, #{model}, #{price}, #{id}, now(), #{detail})
+	</insert>
+
+	<!-- 상품 삭제 -->
+	<delete id="deleteProduct">
+		DELETE FROM product
+		WHERE code IN
+		<foreach item="code" collection="list" open="(" separator=","
+			close=")">
+			#{code}
+		</foreach>
+	</delete>
+	
+	<!-- 날짜별 상품 목록 조회 -->
+	<select id="searchByDate" parameterType="map" resultMap="ProductResultMap">
+		select * from product
+		where id=#{userId} and DATE(regist_date)=#{registDate}
+	</select>
+
+	<!-- 날짜별 상품 목록 조회(관리자용) -->
+	<select id="searchByDateAdmin" parameterType="string" resultMap="ProductResultMap">
+		SELECT * FROM product
+		WHERE #{registDate} IS NULL OR DATE(regist_date) = #{registDate}
+	</select>
+
+	<!-- 상품 상세 목록 확인 -->
+	<select id="getDetail" parameterType="string" resultMap="ProductResultMap">
+		select * from product
+		where code=#{code}
+	</select>
+
+	<!-- 업데이트 -->
+	<update id="updateProduct" parameterType="ProductDto">
+		UPDATE product
+		SET model = #{model}, price = #{price}, detail = #{detail}
+		WHERE code = #{code}
+	</update>
+</mapper>

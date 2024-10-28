@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+	<mapper namespace="com.ssafy.exam.mapper.ProductMapper">
+
+	<!-- 전체 상품 목록 조회 -->
+	<select id="getAllResources" resultType="ProductDto">
+		SELECT reservationId AS reservationId, userId AS userId, resourceId AS resourceId, startDate AS startDate,
+		       endDate AS endDate
+		FROM reservations
+	</select>
+
+	<!-- 사용자별 상품 목록 조회 -->
+	<select id="getUserResources" parameterType="string" resultType="ProductDto">
+		select * from reservations where userId=#{userId}
+	</select>
+	
+	 <!-- 상품 등록 -->
+    <insert id="makeProduct" >
+        insert into reservations(reservationId, userId, resourceId, startDate,  endDate)
+        values(#{reservationId}, #{userId},#{resourceId}, #{startDate},  endDate)
+    </insert>
+    
+    <!-- 상품 삭제 -->
+    <delete id="deleteProduct">
+        delete from reservations
+        where reservationId in
+        <foreach collection="list" item="reservationId" open="(" separator="," close=")">
+            #{reservationId}
+        </foreach>
+    </delete>
+
+</mapper>
