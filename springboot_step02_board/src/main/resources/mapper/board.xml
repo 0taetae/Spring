@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace: dao 명, id: 메서드 명 -->
+<mapper namespace="com.edu.board.model.dao.BoardDao">
+	<insert id="insertPost" parameterType="board">
+		insert into board2(writer, title, content, pwd, regdate, hit)
+		values (#{writer}, #{title}, #{content}, #{pwd}, now(), 0)
+	</insert>
+
+	<select id="listPost" resultType="board">
+		select *
+		from board2
+	</select>
+	<select id="readPost" parameterType="int" resultType="board">
+		select *
+		from board2
+		where num=#{id}
+	</select>
+
+	<update id="updatePost" parameterType="board">
+		update board2
+		set title=#{title}, content=#{content}
+		where num=#{num} and pwd=#{pwd}
+	</update>
+	
+	<delete id="deletePost" parameterType="board">
+		delete
+		from board2
+		where num=#{num} and pwd=#{pwd}
+		
+	</delete>
+	<update id="updateHit" parameterType="int">
+		update board2
+		set hit = hit + 1
+		where num=#{num}
+	</update>
+</mapper>
