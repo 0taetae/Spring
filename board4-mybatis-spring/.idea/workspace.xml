@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce4cdf00-1d3d-40e6-99b4-b2bf0b252015" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../SpringTest_buk_03_KimTaeYoung/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/SpringTest_buk_03_KimTaeYoung/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_buk_03_KimTaeYoung/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/SpringTest_buk_03_KimTaeYoung/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/SpringTest_exam/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/SpringTest_exam/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/controller/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/controller/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/controller/MemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/dto/MemberDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/dto/MemberDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/dto/ProductDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/dto/ProductDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/interceptor/AdminInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/interceptor/AdminInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/mapper/MemberMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/mapper/MemberMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/mapper/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/mapper/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/service/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/service/MemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/classes/com/ssafy/exam/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol/target/m2e-wtp/web-resources/META-INF/maven/SpringTest_solution_11/SpringTest_solution_11/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol/target/m2e-wtp/web-resources/META-INF/maven/SpringTest_solution_11/SpringTest_solution_11/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol_2/target/m2e-wtp/web-resources/META-INF/maven/SpringTest_solution_11/SpringTest_solution_11/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol_2/target/m2e-wtp/web-resources/META-INF/maven/SpringTest_solution_11/SpringTest_solution_11/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest_exam_sol_2/target/m2e-wtp/web-resources/META-INF/maven/SpringTest_solution_11/SpringTest_solution_11/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest_exam_sol_2/target/m2e-wtp/web-resources/META-INF/maven/SpringTest_solution_11/SpringTest_solution_11/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board-annotation/target/classes/META-INF/maven/com.ssafy/board-annotation/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board-annotation/target/classes/META-INF/maven/com.ssafy/board-annotation/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board-javaconfig/target/classes/META-INF/maven/com.ssafy/board-javaconfig/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board-javaconfig/target/classes/META-INF/maven/com.ssafy/board-javaconfig/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board-mybatis-annotation/target/classes/META-INF/maven/com.ssafy/board-mybatis-annotation/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board-mybatis-annotation/target/classes/META-INF/maven/com.ssafy/board-mybatis-annotation/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board-mybatis-xml/target/classes/META-INF/maven/com.ssafy/board-mybatis-xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board-mybatis-xml/target/classes/META-INF/maven/com.ssafy/board-mybatis-xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board-xml/target/classes/META-INF/maven/com.ssafy/board-xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board-xml/target/classes/META-INF/maven/com.ssafy/board-xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board1-webmvc/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board1-webmvc/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board2-file-interceptor/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board2-file-interceptor/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board3-mybatis/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board3-mybatis/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board5-restapi/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../board5-restapi/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/board/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-di/target/classes/META-INF/maven/com.ssafy/hello-di/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-di/target/classes/META-INF/maven/com.ssafy/hello-di/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellomvc_xml/target/m2e-wtp/web-resources/META-INF/maven/hellomvc_xml/hellomvc_xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hellomvc_xml/target/m2e-wtp/web-resources/META-INF/maven/hellomvc_xml/hellomvc_xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-aop/target/classes/META-INF/maven/com.ssafy/spring-aop/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-aop/target/classes/META-INF/maven/com.ssafy/spring-aop/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws03_webmvc/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_03_3/spring_ws_03_3/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws03_webmvc/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_03_3/spring_ws_03_3/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_01_1/target/classes/META-INF/maven/spring_ws_01_1_P/spring_ws_01_1_P/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_01_1/target/classes/META-INF/maven/spring_ws_01_1_P/spring_ws_01_1_P/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_01_2_P/target/classes/META-INF/maven/spring_ws_01_2_P/spring_ws_01_2_P/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_01_2_P/target/classes/META-INF/maven/spring_ws_01_2_P/spring_ws_01_2_P/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_02_1/target/classes/META-INF/maven/com.ssafy.ws/spring_ws_02_1/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_02_1/target/classes/META-INF/maven/com.ssafy.ws/spring_ws_02_1/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_02_2/target/classes/META-INF/maven/com.ssafy.ws/spring_ws_02_2/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_02_2/target/classes/META-INF/maven/com.ssafy.ws/spring_ws_02_2/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_03_1/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy.ws/spring_ws_03_1/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_03_1/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy.ws/spring_ws_03_1/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_03_2/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy.ws/spring_ws_03_1/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_03_2/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy.ws/spring_ws_03_1/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_04_1/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_04_1/spring_ws_04_1/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_04_1/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_04_1/spring_ws_04_1/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_04_1_P/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_04_1/spring_ws_04_1/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_04_1_P/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_04_1/spring_ws_04_1/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_04_2/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_04_2/spring_ws_04_2/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_04_2/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_04_2/spring_ws_04_2/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_05_1_P/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_05_1_P/spring_ws_05_1_P/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_05_1_P/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_05_1_P/spring_ws_05_1_P/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_07_1/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_07_1_P/spring_ws_07_1_P/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_07_1/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_07_1_P/spring_ws_07_1_P/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_07_2/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_07_2_P/spring_ws_07_2_P/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_07_2/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_07_2_P/spring_ws_07_2_P/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_08_1/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_08_1/spring_ws_08_1/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_08_1/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_08_1/spring_ws_08_1/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ws_08_2/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_08_2/spring_ws_08_2/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ws_08_2/target/m2e-wtp/web-resources/META-INF/maven/spring_ws_08_2/spring_ws_08_2/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step01_spring_di/target/classes/META-INF/maven/com.ssafy/step01_spring_di/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step01_spring_di/target/classes/META-INF/maven/com.ssafy/step01_spring_di/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step01_spring_di_review/target/classes/META-INF/maven/com.ssafy/step01_spring_di_review/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step01_spring_di_review/target/classes/META-INF/maven/com.ssafy/step01_spring_di_review/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step02_spring_annotation/target/classes/META-INF/maven/ex02_spring_annotation/ex02_spring_annotation/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step02_spring_annotation/target/classes/META-INF/maven/ex02_spring_annotation/ex02_spring_annotation/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step02_spring_annotation_review/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/step02_spring_annotation_review/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step02_spring_annotation_review/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/step02_spring_annotation_review/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step03_spring_aop/target/classes/META-INF/maven/com.ssafy/step03_spring_aop/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step03_spring_aop/target/classes/META-INF/maven/com.ssafy/step03_spring_aop/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step03_spring_aop_review/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/step03_spring_aop_review/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step03_spring_aop_review/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/step03_spring_aop_review/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step04_spring_webmvc/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/springmvc/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step04_spring_webmvc/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/springmvc/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step05_spring_book/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/mvc/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step05_spring_book/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/mvc/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step06_spring_interceptor/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/mvc/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step06_spring_interceptor/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/mvc/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step07_spring_myBatis/target/m2e-wtp/web-resources/META-INF/maven/hellomvc_xml/hellomvc_xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step07_spring_myBatis/target/m2e-wtp/web-resources/META-INF/maven/hellomvc_xml/hellomvc_xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step08_spring_myBatis/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/mvc-mybatis/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step08_spring_myBatis/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/mvc-mybatis/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step09_Customer_mybatis/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/step09_Customer_mybatis/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../step09_Customer_mybatis/target/m2e-wtp/web-resources/META-INF/maven/com.ssafy/step09_Customer_mybatis/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2osJWCbOrGnpVs9LDQcj69HelBt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/ssafy12/workspace/SpringPractice/board4-mybatis-spring",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="ce4cdf00-1d3d-40e6-99b4-b2bf0b252015" name="변경" comment="" />
+      <created>1731652378206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731652378206</updated>
+      <workItem from="1731652379274" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
